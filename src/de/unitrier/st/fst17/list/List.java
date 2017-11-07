@@ -1,5 +1,6 @@
 package de.unitrier.st.fst17.list;
 
+// FabianUniTrier
 /**
  * Doppelt verkettete Liste.
  */
