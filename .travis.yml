@@ -1,5 +1,10 @@
 language: java
 
+notification:
+ email:
+ - s4famirz@uni-trier.de
+
+
 #addons:
 #  sonarcloud:
 #    organization: "sbaltes-github"
