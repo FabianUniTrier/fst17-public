@@ -4,12 +4,11 @@ notification:
  email:
  - s4famirz@uni-trier.de
 
+addons:
+ sonarcloud:
+   organization: "fabianunitrier-github"
+   token: $SONAR_TOKEN
 
-#addons:
-#  sonarcloud:
-#    organization: "sbaltes-github"
-#    token: $SONAR_TOKEN
-
-#script:
-#  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-#  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
+script:
+# the following command line builds the project, runs the tests with coverage and then #execute the SonarCloud analysis
+ - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
